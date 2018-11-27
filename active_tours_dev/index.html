@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Экстримальные и не очень авторские туры для активных людей. 
+    Организация туров в любую точку планеты!">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="./css/font_icon.css">
+    <!-- <link rel="stylesheet" href="css/icon-font.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>Active Tours | Захватывающие туры для активных людей</title>
+    
+    <!--
+1. Доделать адаптив
+2. Доделать адаптив изображений в html и css
+
+    -->
+</head>
+
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button"><span class="navigation__icon">&nbsp;</span> </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>О Active Tours</a></li>
+
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Ваши преимущества</a></li>
+
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Популярные туры</a></li>
+
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Отзывы</a></li>
+
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Бронировать сейчас</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header">
+        <div class="header__logo-box">
+            <img src="./img/logo-white.png" alt="Logo" class="header__logo">
+        </div>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Active Tours</span>
+                <span class="heading-primary--sub">Туры для настоящих путешественников</span>
+            </h1>
+
+            <a href="#" class="btn btn--white btn--animated">Смотреть туры</a>
+        </div>
+
+    </header>
+    <main>
+        <section class="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Захватывающие туры для активных людей
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="heading-3 u-margin-bottom-small">Новый взгляд на путешествия</h3>
+                    <p class="paragraph">Вы откройте для себя мир, каким вы его еще не видели и даже не могли представить!</p>
+
+                    <h3 class="heading-3 u-margin-bottom-small">Незабываемые эмоции и впечатления</h3>
+                    <p class="paragraph">Уникальные маршруты разработанные профессиональными путешественниками на основе собранного в течение 10 лет опыта. </p>
+                    <a href="#" class="btn-text">Подробнее &rarr;</a>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+                        <!--адаптивные изображения -->
+                        <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w" 
+                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                        alt="Красивое фото природы в горах"
+                        class="composition__photo composition__photo--p1"
+                        src="img/nat-1-lar ge.jpg">
+
+                        <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w" 
+                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                        alt="Горные тропы в Новой Зеландии"
+                        class="composition__photo composition__photo--p2"
+                        src="img/nat-2-large.jpg">
+
+                        <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w" 
+                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                        alt="Велотуры по Исландии"
+                        class="composition__photo composition__photo--p3"
+                        src="img/nat-3-large.jpg">
+                        <!-- 
+                        <img src="./img/nat-1-large.jpg" alt="Photo1" class="composition__photo composition__photo--p1">
+                        <img src="img/nat-2-large.jpg" alt="Photo2" class="composition__photo composition__photo--p2">
+                        <img src="./img/nat-3-large.jpg" alt="Photo3" class="composition__photo composition__photo--p3">
+                        -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-features">
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-world"></i>
+                        <h3 class="heading-3 u-margin-bottom-small">Открой весь мир</h3>
+                        <p class="feature-box__text">
+                            Организуем твое приключение в любую точку планеты. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-compass"></i>
+                        <h3 class="heading-3 u-margin-bottom-small">Новые навыки</h3>
+                        <p class="feature-box__text">
+                            Опытные гиды обучат тебя навыкам выживания в диких условиях.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-map"></i>
+                        <h3 class="heading-3 u-margin-bottom-small">Дикие маршруты</h3>
+                        <p class="feature-box__text">
+                           Испытать себя на прочность на самых трудных маршрутах. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-heart"></i>
+                        <h3 class="heading-3 u-margin-bottom-small">Живи на полную</h3>
+                        <p class="feature-box__text">
+                            Хватит мечтать! Просто отправь нам заявку на подбор путешествия ;)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-tours" id="section-tours">
+                <div class="u-center-text u-margin-bottom-big">
+                        <h2 class="heading-secondary">
+                            ТОП популярных туров
+                        </h2>
+                    </div>
+        
+        <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                           
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>    
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">Дальние моря</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Четырехдневный тур</li>
+                                    <li>До 30 человек</li>
+                                    <li>2 гида на группу</li>
+                                    <li>Ночевка в гостинице</li>
+                                    <li>Сложность: легкая</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card__side card__side--back card__side--back-1">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">
+                                            Всего
+                                        </p>
+                                        <p class="card__price-value">
+                                            34 000&#8381
+                                        </p>
+                                    </div>
+                                    <a href="#popup" class="btn btn--white">Бронировать!</a>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                        <div class="card">
+                           
+                                <div class="card__side card__side--front">
+                                    <div class="card__picture card__picture--2">
+                                        &nbsp;
+                                    </div>    
+                                    <h4 class="card__heading">
+                                        <span class="card__heading-span card__heading-span--2">Дикие леса</span>
+                                    </h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>Семидневный тур</li>
+                                            <li>До 40 человек</li>
+                                            <li>6 гидов на группу</li>
+                                            <li>Ночевка в палатках</li>
+                                            <li>Сложность: средняя</li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="card__side card__side--back card__side--back-2">
+                                        <div class="card__cta">
+                                            <div class="card__price-box">
+                                                <p class="card__price-only">
+                                                    Всего
+                                                </p>
+                                                <p class="card__price-value">
+                                                    28 900&#8381
+                                                </p>
+                                            </div>
+                                            <a href="#popup" class="btn btn--white">Бронировать!</a>
+                                        </div>
+                                </div>
+        
+                            </div>
+                </div>
+                <div class="col-1-of-3">
+                        <div class="card">
+                           
+                                <div class="card__side card__side--front">
+                                    <div class="card__picture card__picture--3">
+                                        &nbsp;
+                                    </div>    
+                                    <h4 class="card__heading">
+                                        <span class="card__heading-span card__heading-span--3">Крутые горы</span>
+                                    </h4>
+                                    <div class="card__details">
+                                        <ul>
+                                            <li>Пятидневный тур</li>
+                                            <li>До 10 человек</li>
+                                            <li>3 гида на группу</li>
+                                            <li>Ночевка в палатках</li>
+                                            <li>Сложность: тяжелая</li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="card__side card__side--back card__side--back-3">
+                                        <div class="card__cta">
+                                            <div class="card__price-box">
+                                                <p class="card__price-only">
+                                                    Всего
+                                                </p>
+                                                <p class="card__price-value">
+                                                    41 900&#8381
+                                                </p>
+                                            </div>
+                                            <a href="#popup" class="btn btn--white">Бронировать!</a>
+                                        </div>
+                                </div>
+        
+                            </div>
+                </div>
+            </div>
+            <div class="u-center-text u-margin-bottom-big u-margin-top-huge">
+                    <a href="#" class="btn btn--green">Посмотреть все туры</a>
+                </div>
+        </section>
+        <section class="section-stories">
+            <div class="bg-video">
+                <video class="bg-video_content" autoplay muted loop>
+                    <source src="./img/video.mp4" type="video/mp4">
+                        <source src="./img/video.webm" type="video/mp4">
+                            Ваш браузер не поддерживается!!!
+                </video>
+            </div>
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                            Мы делаем людей по настоящему счастливыми
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="./img/nat-8.jpg" alt="Отзыв туриста - Юля" class="story__img">
+                            <figcaption class="story__caption">
+                                Юля Посохина
+                            </figcaption>
+                        </figure>
+                        <div class="story__text"> 
+                            <h3 class="heading-3 u-margin-bottom-small">
+                                Это была лучшая неделя в моей жизни
+                            </h3>
+                            <p>
+                                Провела незабываемую неделю на природе со своей семьей, это очень нас объединило!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="story">
+                            <figure class="story__shape">
+                                <img src="./img/nat-9.jpg" alt="Отзыв туриста - Леша" class="story__img">
+                                <figcaption class="story__caption">
+                                    Леша Демин  
+                                </figcaption>
+                            </figure>
+                            <div class="story__text">
+                                <h3 class="heading-3 u-margin-bottom-small">
+                                    Моя жизнь разделилась на до и после
+                                </h3>
+                                <p>
+                                    Всегда мечтал побывать на Камчатке, своими глазами увидеть и почувствовать всю мощь природы. Благодаря Active Tours эта мечта сбылась!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="u-center-text u-margin-bottom-big u-margin-top-huge">
+                            <a href="#" class="btn-text">Больше отзывов &rarr;</a>
+                        </div>
+        </section>
+        <section class="section-book">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <form action="#" class="form">
+                                <div class="u-center-text u-margin-bottom-medium">
+                                        <h2 class="heading-secondary">
+                                              Оставьте заявку сейчас
+                                        </h2>
+                                    </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Ваше имя" required id="name">
+                                <label for="name" class="form__label">Полное имя</label>
+                            </div>
+                            <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Ваш Email" required id="email">
+                                    <label for="email" class="form__label">Email</label>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="small" name="size">
+                                        <label for="small" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                             Индивидуально</label>
+                                    </div>
+                                    <div class="form__radio-group">
+                                            <input type="radio" class="form__radio-input" id="large" name="size">
+                                            <label for="large" class="form__radio-label">
+                                                    <span class="form__radio-button"></span>
+                                                С группой</label>
+                                        </div>
+                                </div>
+                                  <div class="form-group">
+                                      <button class="btn btn--green u-margin-top-small">Отправить заявку &rarr;</button>
+                                  </div>      
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo-box">
+
+        <picture class="footer__logo">
+            <source srcset="./img/logo-green-small-1x.png 1x, ./img/logo-green-small-2x.png 2x" 
+            media="(max-width: 37.5rem)">
+                <img srcset="./img/logo-green-1x.png 1x, ./img/logo-green-2x.png 2x" 
+                alt="Большой логотип" 
+                src="./img/logo-green-small-2x.png">
+        </picture>
+            
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">О нас</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Партнерам</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Блог</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Разработка сайта <a href="#" class="footer__link">Александр Сафонов</a> 
+                    для <a href="#" class="footer__link">Active Tours</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+<img src="./img/nat-8.jpg" alt="Фото наших туристов" class="popup__img">
+<img src="./img/nat-9.jpg" alt="Фото наших клиентов" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Заявка на тур</h2>
+                <h3 class="heading-3 u-margin-bottom-small">&ndash; Подробная информация по туру &ndash;  </h3>
+                <p class="popup__text u-margin-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Corrupti repellat voluptate cumque neque nam perferendis nesciunt numquam incidunt error quibusdam.
+                     Ducimus reiciendis rem dicta quos accusantium, 
+                     et necessitatibus consectetur consequatur.
+                    </p>
+                    <a href="#" class="btn btn--green">Бронировать</a>
+            </div>
+        </div>
+    </div>
+    <!--
+    <section class="grid-test">
+        <div class="row">
+            <div class="col-1-of-2">
+                Col 1 of 2
+            </div>
+            <div class="col-1-of-2">
+                Col 1 of 2
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    Col 1 of 3 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    Col 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    Col 2 of 3
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-4">
+                        Col 1 of 4
+                    </div>
+                    <div class="col-1-of-4">
+                        Col 1 of 4
+                        </div>
+                        <div class="col-1-of-4">
+                            Col 1 of 4
+                        </div>
+                        <div class="col-1-of-4">
+                            Col 1 of 4
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1-of-4">
+                                Col 1 of 4
+                            </div>
+                            <div class="col-1-of-4">
+                                Col 1 of 4
+                                </div>
+                                <div class="col-2-of-4">
+                                    Col 2 of 4
+                                </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1-of-4">
+                                        Col 1 of 4
+                                    </div>
+                                    <div class="col-3-of-4">
+                                        Col 3 of 4
+                                    </div>
+                                </div>
+    </section>
+
+-->
+
+
+</body>
+
+</html>
