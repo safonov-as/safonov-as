@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Игра в кости</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Игрок 1</div>
+                <div class="player-score" id="score-0">43</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Текущий счет</div>
+                    <div class="player-current-score" id="current-0">11</div>
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Игрок 2</div>
+                <div class="player-score" id="score-1">72</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Текущий счет</div>
+                    <div class="player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+            
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>Новая игра</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Бросить</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Холдировать</button>
+            
+            <input type="text" placeholder="100" class="final-score">
+
+            <img src="dice-5.png" alt="Dice" class="dice" id="dice-1">
+            <img src="dice-5.png" alt="Dice" class="dice" id="dice-2">
+        </div>
+
+        <div id="popup-rules" class="popup">
+            <div class="popup__content">
+                    <span class="closeBtn">&times;</span>
+                <div class="game-rules">
+                        <h2 class="popup__heading">Правила игры</h2>
+                        <img src="./game_rules.png" alt="Правила игры" class="popup__img">
+                        <ul class="popup-rules__list">
+                            <li>В игре 2 игрока, которые ходят по очереди. Начинает игру Игрок 1. </li>
+                            <li>Во время своего хода игрок бросает кубик столько раз сколько захочет. Результат каждого броска добавляется в текущий счет</li>
+                            <li>Если во время своего хода игроку выпадает единица на одном из кубиков, ход переходит другому игроку</li>
+                            <li>Для того, чтобы набрать очки общего счета, игрок должен нажать холдировать. При этом очки текущего счета переходят в общий счет, а ход к другому игроку.</li>
+                            <li>Побеждает тот игрок, чей общий счет достигнет или превысит указанный в поле победный счет. По умолчанию 100 очков.</li>
+                        </ul>
+                </div>
+            </div>
+
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
