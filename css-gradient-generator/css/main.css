@@ -1,0 +1,114 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+@charset "UTF-8";
+/* line 1, src/sass/base/_base.scss */
+html {
+  font-size: 62.5%;
+  /*устанавливаем относительную величину шрифта 1rem == 10px; 10px/16px = 62.5%,
+     от установленной в браузере пользователя(16px) */
+  /* @include respond(tab-land) { //width < 1200?
+      font-size: 56.25%; // 1rem = 9px; 9/16 = 56.25%
+    }
+    @include respond(tab-port) { // width < 900?
+      font-size: 50%; // 1rem = 8px; 8/16 = 50%
+    }
+    @include respond(big-desk) {
+      font-size: 75%; // 1rem = 12px; 12/16 = 75%
+    }
+    */
+}
+
+/* line 19, src/sass/base/_base.scss */
+.background {
+  width: 100%;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#c2012b), to(#7e0bad));
+  background-image: linear-gradient(to right top, #c2012b, #7e0bad);
+  background-size: cover;
+  background-position: top;
+}
+
+/* line 1, src/sass/base/_reset.scss */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  /*задаем принудительное наследование для box-sizing*/
+}
+
+/* line 1, src/sass/base/_typography.scss */
+.main-title, .secondary-title {
+  color: white;
+  margin: 2rem;
+  text-transform: uppercase;
+}
+
+/* line 6, src/sass/base/_typography.scss */
+.main-title {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  font-weight: 600;
+}
+
+/* line 12, src/sass/base/_typography.scss */
+.secondary-title {
+  font-size: 2rem;
+  letter-spacing: .7rem;
+}
+
+/* line 17, src/sass/base/_typography.scss */
+.css-field {
+  background-color: #e1e1e1;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+/* line 23, src/sass/base/_typography.scss */
+button {
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 60rem) {
+  /* line 31, src/sass/base/_typography.scss */
+  .main-title {
+    font-size: 2rem;
+    letter-spacing: .7rem;
+  }
+  /* line 36, src/sass/base/_typography.scss */
+  .secondary-title {
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+  }
+  /* line 40, src/sass/base/_typography.scss */
+  .css-field {
+    font-size: 1.6rem;
+  }
+  /* line 43, src/sass/base/_typography.scss */
+  button {
+    padding: .5rem;
+    font-size: 1.4rem;
+  }
+}
+
+/* line 3, src/sass/layout/_header.scss */
+.header {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  top: 15%;
+}
