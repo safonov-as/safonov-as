@@ -56,14 +56,17 @@
 Верстка на CSS Grid
 Адаптивный дизайн
 
-[Просмотреть проект] (https://safonov-as.github.io/LuxR/)
+[Просмотреть проект](https://safonov-as.github.io/LuxR/)
 
-[Код] (https://github.com/safonov-as/safonov-as.github.io/tree/master/LuxR)
+[Код](https://github.com/safonov-as/safonov-as.github.io/tree/master/LuxR)
 
 ## Остальные работы
 
   ### Генератор CSS-градиентов
+  Наглядно поможет подобрать цвета градиента и тут же скопировать CSS код.
+  
   [Просмотреть проект](https://safonov-as.github.io/css-gradient-generator/)
+  
   [Код](https://github.com/safonov-as/safonov-as.github.io/tree/master/css-gradient-generator)
   
   ### Рандомные карточки 
@@ -72,4 +75,5 @@
   - Возможность удалить карточку.
   - Возможность добавить карточку через форму с валидацией полей.
   - Drag-&-Drop карточек.
+  
   [Просмотреть проект](https://codepen.io/safonov_as/pen/rPXmjv)
