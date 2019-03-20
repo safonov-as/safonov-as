@@ -57,8 +57,9 @@
 Верстка на CSS Grid
 Адаптивный дизайн
 
-⋅⋅⋅[Просмотреть проект](https://safonov-as.github.io/LuxR/)
-⋅⋅⋅[Код](https://github.com/safonov-as/safonov-as.github.io/tree/master/LuxR)
+[Просмотреть проект](https://safonov-as.github.io/LuxR/)
+
+[Код](https://github.com/safonov-as/safonov-as.github.io/tree/master/LuxR)
 
 ## Остальные работы
 
