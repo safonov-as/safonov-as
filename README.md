@@ -47,6 +47,7 @@
 - Адаптивный дизайн
 
 [Просмотреть проект](https://safonov-as.github.io/bookingZilla_dev/)
+
 [Код](https://github.com/safonov-as/safonov-as.github.io/tree/master/bookingZilla_dev)
 
 ## Главная страница компании по продаже элитной недвижимости
@@ -56,9 +57,8 @@
 Верстка на CSS Grid
 Адаптивный дизайн
 
-[Просмотреть проект](https://safonov-as.github.io/LuxR/)
-
-[Код](https://github.com/safonov-as/safonov-as.github.io/tree/master/LuxR)
+⋅⋅⋅[Просмотреть проект](https://safonov-as.github.io/LuxR/)
+⋅⋅⋅[Код](https://github.com/safonov-as/safonov-as.github.io/tree/master/LuxR)
 
 ## Остальные работы
 
